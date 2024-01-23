@@ -14,6 +14,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton, Stack } from "@mui/material";
 import Link from "next/link";
+import Header from "./Header";
 
 const navItems = [
   {
@@ -40,6 +41,8 @@ const navItems = [
 
 function Navbar() {
   return (
+   <>
+   <Header/>
     <AppBar position="static" className="bg-[#aaaaaa]">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -74,6 +77,7 @@ function Navbar() {
         </Toolbar>
       </Container>
     </AppBar>
+   </>
   );
 }
 export default Navbar;
