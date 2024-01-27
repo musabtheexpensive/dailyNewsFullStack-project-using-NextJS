@@ -43,14 +43,14 @@ function Navbar() {
   return (
    <>
    <Header/>
-    <AppBar position="static" className="bg-[yellow]">
+    <AppBar position="static" className="bg-gray-400">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar >
           <Image src={logo} width={80} height={80} alt="logo" />
           <Box className="w-full text-center">
             {navItems.map((item) => (
               <Link key={item} href={item.pathname}>
-                <Button className="text-black">{item.route}</Button>
+                <Button className="text-white-200">{item.route}</Button>
               </Link>
             ))}
           </Box>
