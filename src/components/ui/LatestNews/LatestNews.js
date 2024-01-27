@@ -35,6 +35,7 @@ const LatestNews = () => {
           </CardContent>
         </CardActionArea>
       </Card>
+      
       <Grid
         className="mt-5"
         container
