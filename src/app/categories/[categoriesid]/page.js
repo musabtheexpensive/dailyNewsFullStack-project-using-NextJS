@@ -1,6 +1,5 @@
 import { getCategoryNews } from "@/utils/getCategoryNews";
 import {
-  Box,
   Card,
   CardActionArea,
   CardContent,
